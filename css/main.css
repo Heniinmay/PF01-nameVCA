@@ -1,0 +1,5 @@
+@import url(commom.css);
+
+header{
+    transition: transform 0.4s;
+}
