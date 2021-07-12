@@ -1,0 +1,87 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400&family=Vollkorn:wght@400;500;600&display=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+/* font-family: 'Noto Serif KR', serif;
+font-family: 'Vollkorn', serif; 
+font-family: 'Roboto', sans-serif;*/
+
+/*------------------------- RESET -------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.cf:after{
+    content:'';
+    clear: both;
+    display: block;
+    margin: 0;
+}
+a, input, button{
+    outline: none;
+}
+/*------------------------- LAYOUT -------------------------*/
+
+body{
+    font:16px/27px 'Noto Serif KR', serif;
+    color: #2c2c2c;
+    background-color: #F3F4E6;
+}
+.hidden{
+    display: none;
+}
+
+/*----------------------- TYPOGRAPHY -----------------------*/
+
+/*---------------------- HEADER & NAV ----------------------*/
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+header{ 
+    width: 100%;
+    margin: 0 auto;
+    background-color: #DDDECC ;
+    border-bottom: 2px solid #233B36;
+    position: fixed;
+    z-index: 999;
+}
+header h2{
+    padding: 5px 0 5px;                         /*9px*/
+    border-right: 2px solid #233B36 ;
+    float: left;
+}
+header nav .logo{
+    width: 100px;
+    height: 56px;
+    background: url(../images/logo.png) no-repeat;
+    display: block;
+    padding-right: 24px;
+    text-indent: -9999em;
+}
+.nav_menu{
+    float: right;
+}
+.nav_menu li{
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    text-transform: uppercase;
+}
+.nav_menu li a{
+    color: #233B36;
+    padding: 0 25px;
+    line-height: 66px;                          /*72px*/
+    font-size: 14px;
+    display: block;
+}
+.nav_menu li:first-child{
+    font-weight: 700;
+}
+.nav_menu li:last-child{
+    padding: 0 0;
+}
+
+/*---------------------- LINK & BUTTON ---------------------*/
+
+/*------------------------- FOOTER --------------------------*/
