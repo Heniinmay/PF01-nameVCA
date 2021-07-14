@@ -1,0 +1,30 @@
+[33m2b65533[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m HEAD@{0}: rebase (finish): returning to refs/heads/main
+[33m2b65533[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m HEAD@{1}: rebase (pick): Header html+css 1.0
+[33m53edcfe[m HEAD@{2}: rebase (pick): header CSS - 1.0
+[33m4199d15[m[33m ([m[1;31morigin/main[m[33m)[m HEAD@{3}: rebase (start): checkout refs/remotes/origin/main
+[33m47d5025[m HEAD@{4}: rebase (finish): returning to refs/heads/main
+[33m47d5025[m HEAD@{5}: rebase (start): checkout bbaa6171d1483be12d48aef2cac1842d84861d85
+[33m47d5025[m HEAD@{6}: commit: Header html+css 1.0
+[33mbf8a838[m HEAD@{7}: commit: header CSS - 1.0
+[33mbbaa617[m HEAD@{8}: rebase (continue) (finish): returning to refs/heads/main
+[33mbbaa617[m HEAD@{9}: commit (amend): html 완성
+[33mccae8f6[m HEAD@{10}: rebase: fast-forward
+[33mdf83f39[m HEAD@{11}: rebase (start): checkout df83f3936625614d764fa1adfe585abb744aafad
+[33mccae8f6[m HEAD@{12}: reset: moving to ccae8f613706ab28d9812fc6e79f13cb120b5b82
+[33m4199d15[m[33m ([m[1;31morigin/main[m[33m)[m HEAD@{13}: pull: Merge made by the 'recursive' strategy.
+[33mae344b1[m HEAD@{14}: rebase (continue) (finish): returning to refs/heads/main
+[33mae344b1[m HEAD@{15}: commit (amend): html 완성
+[33m5c6ec57[m HEAD@{16}: commit (amend): html 완성
+[33mccae8f6[m HEAD@{17}: rebase: fast-forward
+[33mdf83f39[m HEAD@{18}: rebase (start): checkout df83f3936625614d764fa1adfe585abb744aafad
+[33mccae8f6[m HEAD@{19}: rebase (continue) (finish): returning to refs/heads/main
+[33mccae8f6[m HEAD@{20}: commit (amend): html 완성
+[33m367eade[m HEAD@{21}: rebase: fast-forward
+[33mdf83f39[m HEAD@{22}: rebase (start): checkout refs/remotes/origin/main
+[33m367eade[m HEAD@{23}: commit: html 완성
+[33mdf83f39[m HEAD@{24}: Branch: renamed refs/heads/master to refs/heads/main
+[33mdf83f39[m HEAD@{26}: rebase (continue) (finish): returning to refs/heads/master
+[33mdf83f39[m HEAD@{27}: commit (amend): first commit
+[33mbc2c64a[m HEAD@{28}: rebase: fast-forward
+[33mc5e6921[m HEAD@{29}: rebase (start): checkout c5e69216944f9dc309ae99d61805f145078fb74d
+[33mbc2c64a[m HEAD@{30}: commit (initial): first commit
