@@ -3,3 +3,139 @@
 header{
     transition: transform 0.4s;
 }
+
+.main_banner{
+    width: 100%;
+    height: 100vh;
+    background-color: #DDDECC;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.main_banner .page{
+    padding : 72px 0;
+    height:100%;
+    width:100%;
+    background:no-repeat 50% 0 / cover;
+ 
+}
+.main_banner_slides{
+    position: absolute;
+    left: 0; top: 0;
+    height:100%;
+    width:100%;
+    transition:top 0.8s cubic-bezier(.97,0,.82,1.11);
+}
+
+.main_banner_slides li{
+    height:100%;
+    width:100%;
+}
+
+.main_banner_slides .page.perlee_1 a{
+    width: 464px;
+    margin: 0px auto;
+    display: block;
+    height: 720px;
+    transform: translateY(54px);
+}
+
+.main_banner .page.perlee_1 .main_b_left{
+    position: absolute;
+    left:10%;
+    top:50%;
+    transform: translateY(-50%);
+    text-align: right;
+}
+.main_banner .page.perlee_1 .main_b_left h2{
+    color: #060606;
+    font-size: 36px;
+    line-height: 72px;
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 600;
+    align-items: center;
+    text-align: right;
+}
+.main_banner .page.perlee_1 .main_b_left p{
+    font-family: 'Noto Serif KR', serif;
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: 300;
+    width: 435px;
+}
+.main_banner .page.perlee_1 .main_b_right{
+    position: absolute;
+    right: 10%;
+    top: 45%;
+    transform: translate(-50%, -80%);
+}
+.main_banner .page.perlee_1 .main_b_right h1{
+    font-size: 72px;
+    font-family: 'Vollkorn', serif; 
+    font-weight: 400;
+    line-height: 72px;
+    width: 310px;
+    color: #060606;
+    letter-spacing: -0.03em;
+}
+
+/* sprite ! */
+
+/*main_banner2*/
+
+.main_banner .ballerina{
+    position: relative;
+}
+
+.main_banner .page.perlee_1 > a{
+    background: url(../images/banner_img1.png) no-repeat;
+}
+.main_banner .page.ballerina > a{
+    background: url(../images/banner_img2.png) no-repeat;
+    width: 421px;
+    height: 654px;
+    margin: 0px auto;
+    display: block;
+    transform: translate(45%,15%);
+}
+
+.main_banner_slides .page.ballerina .main_b_left{
+    position: absolute;
+    top: 23%;
+    left: 15%;
+    transform: translate(10%,10%);
+}
+.main_banner .page.ballerina .main_b_left h2{
+    color: #060606;
+    font-size: 72px;
+    line-height: 81px;
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 600;
+    width: 350px;
+    padding-left: 150px;
+    text-align: right;
+}
+
+.main_banner .page.ballerina .main_b_left h2:after{
+    content: '';
+    width: 137px;
+    height: 135px;
+    background: url(../images/sprite_com.png);
+    background-position: -358px 0;
+    display: block;    
+    position: absolute;
+    top: -45%;
+    left: 40%;
+    transform: translate(-50%,50%);
+    z-index: -1;
+}
+
+.main_banner .page.ballerina .main_b_left p{
+    font-family: 'Noto Serif KR', serif;
+    font-size: 24px;
+    font-weight: 300;
+    width: 498px;
+    text-align: right;
+    padding:27px 0;
+
+}/*pager 넣기*/
