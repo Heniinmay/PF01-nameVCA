@@ -268,3 +268,85 @@ header{
 .new_arrivals .new_things_list div:last-child{
     margin-right: 0px;
 }
+
+/*-------------------------- ABOUT BRAND --------------------------*/
+.about_Vca{
+    padding: 254px 0 0;
+    text-align: center;
+    margin-bottom: 81px;
+}
+
+.about_Vca .About_Vca_wrap{
+    background: #DDDECC;
+}
+
+/* .about_Vca .About_Vca_wrap .contents{
+    height: 500px;
+} */
+
+.about_Vca .sub_title{
+    line-height: 72px;
+    display: inline-block;
+}
+.about_Vca .contents{
+    position: relative;
+    margin-top: 180px;
+    padding-top: 72px;
+}
+.about_Vca .sub_title p{
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 3px;
+}
+.about_Vca .contents .vca_imgs {
+    /* background: url(../images/vca_couple.png) no-repeat center center; */
+    width: 580px;
+    padding: 0 0 0 98px;
+    position: absolute;
+    transform: translateY(-250px);
+}
+.about_story_wrap{
+    width: 600px;
+    float: right;
+    margin-right: 162px;
+}
+.about_story_wrap .about_story{
+    font-family: 'Vollkorn', serif;
+    width:820px;
+    text-align: left;
+}
+
+.about_story_wrap .about_story h2{
+    font-size: 45px;
+    line-height: 72px;
+    color: #CDB545;
+    letter-spacing: -0.02em;
+}
+.about_story_wrap .about_story h3{
+    font-size: 34px;
+    line-height: 36px;
+    color: #CDB545;
+    width: 700px;
+    letter-spacing: -0.02em;
+}
+.about_story_wrap .about_story p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    width: 600px;
+    font-weight: 300;
+    letter-spacing: -0.02em;
+    margin-top: 24px;
+}
+.about_story_wrap .about_story a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    color:#333333;
+    font-weight: 500;
+    line-height: 144px;
+
+    display: inline-block;
+    width: 160px;    
+}
+.about_story_wrap .about_story .view_more{
+    text-transform: uppercase;
+}
