@@ -32,7 +32,30 @@ body{
 }
 
 /*----------------------- TYPOGRAPHY -----------------------*/
-
+.material-icons-outlined {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+.main_bold{
+    font-weight: 700;
+}
 /*---------------------- HEADER & NAV ----------------------*/
 .container{
     width: 1440px;
@@ -75,13 +98,23 @@ header nav .logo{
     font-size: 14px;
     display: block;
 }
-.nav_menu li:first-child{
-    font-weight: 700;
+.nav_menu li a:hover{
+    background: #F3F4E6;
+    opacity: .8;
+    transition: 0.8s;
 }
 .nav_menu li:last-child{
     padding: 0 0;
 }
+.nav_menu .nav_icon{
+    line-height: 66px;
+    float: left;
+}
 
+
+.nav_menu li:first-child{
+    font-weight: 700;
+}
 /*---------------------- LINK & BUTTON ---------------------*/
 
 /*------------------------- FOOTER --------------------------*/
