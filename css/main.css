@@ -350,3 +350,66 @@ header{
 .about_story_wrap .about_story .view_more{
     text-transform: uppercase;
 }
+
+/*-------------------------- SUBSCRIBE --------------------------*/
+
+.subscribe{
+    padding: 72px 0;
+    background: #CDB545;
+}
+
+.subscribe .logo_text{
+    background: url(../images/logo-text.svg) no-repeat center center;
+    background-size: cover;
+    width: 756px;
+    height: 90px;
+    display: block;
+    text-indent: -9999em;
+    margin: 0 auto;
+    margin-bottom: 36px;
+}
+
+.subscribe p{
+    letter-spacing: -0.03em;
+    font-size: 30px;
+    color: #F3F4E6;
+    width: 532px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 100%;
+}
+
+.subscribe form{
+    padding: 36px;
+    text-align: center;
+}
+
+.subscribe form input[type="submit"]{
+    font-family: 'Noto Serif KR', serif;
+    color: #DDDECC;
+    border:2px solid #DDDECC;
+    padding: 5px 63px 5px 63px;
+    font-size: 14px;
+    letter-spacing: -0.01em;
+    transition: .4s;
+}
+.subscribe form input[type="submit"]:hover{
+    background-color: #DDDECC;
+    color: #CDB545;
+    cursor: pointer;
+}
+
+.subscribe form input[type="email"]{
+    width: 485px;
+    padding: 5px 0px;
+    border-bottom: 2px solid #DDDECC;
+    margin-right: 10px;
+    color: #DDDECC;
+    font-size: 16px;
+}
+
+.subscribe form input[type="email"]::placeholder{
+    padding: 0 20px;
+    color: #DDDECC;
+    font-size: 15px;
+}
