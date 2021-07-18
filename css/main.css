@@ -280,10 +280,6 @@ header{
     background: #DDDECC;
 }
 
-/* .about_Vca .About_Vca_wrap .contents{
-    height: 500px;
-} */
-
 .about_Vca .sub_title{
     line-height: 72px;
     display: inline-block;
@@ -299,7 +295,6 @@ header{
     margin-bottom: 3px;
 }
 .about_Vca .contents .vca_imgs {
-    /* background: url(../images/vca_couple.png) no-repeat center center; */
     width: 580px;
     padding: 0 0 0 98px;
     position: absolute;
@@ -351,6 +346,199 @@ header{
     text-transform: uppercase;
 }
 
+
+.about_story_wrap .about_story .view_arrow{
+    background: url(../images/sprite_com.png) no-repeat;
+    background-position: 0 -37px;
+    width: 95px;height: 25px;
+    /* text-indent: -9999em; */
+    position: relative;
+}
+
+.about_story_wrap .about_story .view_arrow:after{
+    content: '';
+    position: absolute;
+    left: 57%;
+    top: -85%;
+    background: url(../images/sprite_com.png) no-repeat;
+    background-position: -257px 0px;
+    width: 72px; height: 68px;
+    opacity: 0;
+
+    animation: rotate_alhamf 0.5s linear infinite;
+}
+
+.about_story_wrap .about_story .view_arrow:hover:after{
+    opacity: 1;
+}
+
+.about_products{
+    margin: 81px auto;
+}
+
+.about_products .vca_article_wrap{
+    padding: 81px;
+}
+
+.about_products .article1 {
+    margin: 0 0 142px;
+}
+
+.about_products .vca_article.article1 .article_left{
+    float: left;
+    text-align: center;
+    padding-top: 144px;
+    position: relative;
+}
+.about_products .vca_article.article1 .article_left h2{
+    font-family: 'Vollkorn', serif;    
+    font-size: 64px;
+    line-height: 70px;
+    color: #000;
+    text-align: center;
+    width: 554px;
+    letter-spacing: -0.02em;
+    margin-bottom: 36px;
+}
+.about_products .vca_article.article1 .article_left p{
+    font-family: 'Noto Serif KR', serif;
+    font-size: 23px;
+    line-height: 36px;
+    font-weight: normal;
+    color: #494949;
+    text-align: center;
+    width: 440px;
+    margin: 0 auto;
+    letter-spacing: -0.03em;
+}
+.about_products .vca_article.article1 .article_left .btn_bg{
+   width: 122px;
+   height: 115px;
+   line-height: 112px;
+   margin:36px 0;
+   display: inline-block;
+
+   font-family: 'Vollkorn', serif;
+   font-size: 22px;
+
+   background-position: 0 -328px;
+   cursor: pointer;
+   
+}
+
+.about_products .vca_article.article1 .article_left .btn_bg:after{
+    content: '';
+    background: url(../images/sprite_com.png) no-repeat;
+    background-position: -135px -328px;
+    width: 122px;
+    height: 115px;
+        
+    display: block;
+    position: absolute;
+    left: 52%;
+    top: 84%;
+    transform: translate(-50%, -50%);
+    
+    opacity: 0;
+    z-index: -1;
+}
+
+
+.vca_article.article1 .article_right{
+    float: right;
+    position: relative;
+}
+.vca_article.article1 .article_right .border_ra_round{
+    display: inline-block;    
+    text-indent: -9999em;
+    width: 512px;
+    height: 684px;
+    background: url(../images/article1.png) no-repeat;
+    border-radius: 260px 260px;
+    border:1px solid #DDDECC;
+}
+.about_products .vca_article.article2{
+    width: 1237px;
+    padding : 0 122px 144px;
+    position: relative;
+}
+.about_products .vca_article.article2 .article_right{
+    float: right;
+    text-align: center;
+    padding-top:144px;
+}
+.about_products .vca_article.article2 .article_right h2{
+    font-family: 'Vollkorn', serif;    
+    font-size: 64px;
+    line-height: 70px;
+    color: #000;
+    text-align: center;
+    width: 554px;
+    letter-spacing: -0.02em;
+    margin-bottom: 36px;
+}
+.about_products .vca_article.article2 .article_right p{
+    font-family: 'Noto Serif KR', serif;
+    font-size: 23px;
+    line-height: 36px;
+    font-weight: normal;
+    color: #494949;
+    text-align: center;
+    width: 440px;
+    margin: 0 auto;
+    letter-spacing: -0.03em;
+}
+.about_products .vca_article.article2 .article_right button{
+   width: 118px;
+   height: 112px;
+   line-height: 112px;
+   
+   font-family: 'Vollkorn', serif;
+   font-size: 22px;
+}
+
+.about_products .vca_article.article2 .article_right .btn_bg{
+    width: 122px;
+    height: 115px;
+    line-height: 112px;
+    margin:36px 0;
+    display: inline-block;
+ 
+    font-family: 'Vollkorn', serif;
+    font-size: 22px;
+ 
+    background-position: 0 -328px;
+    cursor: pointer;
+    
+ }
+ 
+ .about_products .vca_article.article2 .article_right .btn_bg:after{
+     content: '';
+     background: url(../images/sprite_com.png) no-repeat;
+     background-position: -135px -328px;
+     width: 122px;
+     height: 115px;
+         
+     display: block;
+     position: absolute;
+     left: 73.8%;
+    top: 58.5%;
+     transform: translate(-50%, -50%);
+     
+     opacity: 0;
+     z-index: -1;
+ }
+
+ .vca_article.article2 .article_left{
+    float: left;
+}
+.vca_article.article2 .article_left .border_ra_tl_br{
+    display: inline-block;    
+    text-indent: -9999em;
+    width: 588px;
+    height: 680px;
+    background: url(../images/article2.png) no-repeat;
+}
 /*-------------------------- SUBSCRIBE --------------------------*/
 
 .subscribe{
