@@ -539,6 +539,38 @@ header{
     height: 680px;
     background: url(../images/article2.png) no-repeat;
 }
+
+.about_products blockquote{
+    margin: 72px auto 108px;
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+    font-size: 40px;
+    width: 860px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    padding: 0 0 144px;
+
+    position: relative;
+}
+
+.about_products span{
+    position: absolute;
+    font-family: 'Vollkorn', serif;
+    font-weight: 500;
+    font-size: 150px;
+    color: transparent;
+    -webkit-text-stroke: 1.5px #CDB545;
+}
+
+.about_products span.before{
+    top: -10%;
+    left: -20%;
+}
+.about_products span.After{
+    bottom: 15%;
+    right: -20%;
+}
+
 /*-------------------------- SUBSCRIBE --------------------------*/
 
 .subscribe{
