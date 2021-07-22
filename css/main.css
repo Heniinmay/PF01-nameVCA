@@ -633,3 +633,69 @@ header{
     color: #DDDECC;
     font-size: 15px;
 }
+
+/*-------------------------- CUSTOMER SERVICE --------------------------*/
+
+
+.customer_service{
+    padding:180px 0;
+    text-align: center;
+}
+
+.customer_service .sub_title p{
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 3px;
+    letter-spacing: -0.02em;
+}
+.customer_service .sub_title{
+    line-height: 72px;
+}
+.customer_service .cust_serv{
+    margin: 36px 0;
+    display: inline-block;
+}
+
+.customer_service .cust_serv div{
+    text-indent: -999em;
+}
+
+.customer_service .cust_serv li{
+    float:left;
+    margin-right: 300px;
+    
+}
+.customer_service .cust_serv li:last-child{
+    margin-right: 0px;
+}
+
+.customer_service .cust_serv .sprite.serv_qna{
+    width: 153px;
+    height: 149px;
+    display: inline-block;
+    background-position: 0 -179px;
+    cursor: pointer;
+}
+.customer_service .cust_serv .sprite.serv_booking{
+    width: 120px;
+    height: 148px;
+    display: inline-block;
+    background-position: -167px -177px;
+    cursor: pointer;
+}
+.customer_service .cust_serv .sprite.serv_location{
+    width: 103px;
+    height: 148px;
+    display: inline-block;
+    background-position: -302px -189px;
+    cursor: pointer;
+}
+
+.customer_service .cust_serv p{
+    padding: 36px 0;
+    font-size: 20px;
+    font-family: 'Vollkorn', serif;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    
+}
