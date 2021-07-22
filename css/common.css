@@ -117,4 +117,82 @@ header nav .logo{
 }
 /*---------------------- LINK & BUTTON ---------------------*/
 
+<<<<<<< HEAD
 /*------------------------- FOOTER --------------------------*/
+=======
+/*-------------------------- FOOTER --------------------------*/
+
+footer{
+    background-color: #233b36;
+    padding-top: 36px;
+}
+
+footer .ft{
+    border-top: 2px solid #DDDECC;
+    border-bottom: 2px solid #DDDECC;
+}
+
+.ft .ft_logo{
+    border-right: 2px solid #DDDECC;
+    padding:36px;
+    float: left;
+}
+
+.ft .ft_logo .logo_text{
+    width: 248px;
+    height: 30px;
+    background: url(../images/logo-text.svg) center center;
+    text-indent: -9999em;
+}
+
+.ft .ft_logo .ft_vca{
+    float: right;
+    text-align: right;
+    line-height: 200%;
+    text-transform: uppercase;
+    margin: 36px 0;
+}
+
+.ft .ft_logo .ft_vca li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 36px;
+}
+
+.ft .ft_logo .ft_vca li a{
+    color: #DDDECC;
+    
+}
+.ft .ft_menu_all{
+    float: left;
+    padding-left:88px;
+}
+.ft .ft_menu_all .ft_menus{
+    margin-top: 103px;
+    display: inline-block;
+}
+.ft .ft_menu_all .ft_menus li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+.ft .ft_menu_all .ft_menus li a{
+    color: #DDDECC;
+}
+.ft .ft_menu_all .ft_menus ul{
+    float: left;
+    padding-right:24px;
+    font-family: 'Roboto', sans-serif;
+    color: #DDDECC;
+    font-size: 14px;
+}
+.ft .ft_menu_all .ft_right{
+    margin-left: 122px;
+    margin-top: 36px;
+    float: right;
+}
+.ft .ft_menu_all .ft_right .sns_icon li{
+    float: left;
+}
+>>>>>>> 9b3ebfb (footer menu layout done !)
