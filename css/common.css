@@ -192,3 +192,61 @@ footer .ft{
 .ft .ft_menu_all .ft_right .sns_icon li{
     float: left;
 }
+
+.ft_right .sns_icon .sprite{
+    width: 36px;
+    height: 36px;
+    background: url(../images/sprite_sns.png) no-repeat;
+    text-indent: -9999em;
+    display: inline-block;
+    margin: 0 36px 33px 0;
+}
+
+.ft_right .sns_icon .sprite.fb{
+    background-position: -68px 0px;
+    width: 37px;
+}
+.ft_right .sns_icon .sprite.twitter{
+    background-position: -138px 0px;
+}
+.ft_right .sns_icon .sprite.pint{
+    background-position: -206px 0px;
+    width: 37px;
+}
+.ft_right form{
+    margin-top: 108px;
+    position: relative;
+    width: 244px;
+    
+}
+.ft_right form h3{
+    font-family: 'Noto Serif KR', serif;
+    font-size: 18px;
+    color: #F3F4E6;
+    text-align: center;
+    text-transform: uppercase;
+}
+.ft_right form input[type="email"]{
+    background: rgba(255,255, 255, .3);
+    width: 100%;
+    line-height: 36px;
+    padding: 0 5px;
+    border-bottom: 2px solid #DDDECC;
+    color: #DDDECC;
+}
+.ft_right form input[type="email"]::placeholder{
+    color: #DDDECC;
+    font-size: 16px;
+    line-height: 36px;
+    padding: 5px;
+}
+.ft_right form button{
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    /* transform: translateY(-50%); */
+}
+.ft_right form button i{
+    font-size: 24px;
+    color: #DDDECC;
+}
