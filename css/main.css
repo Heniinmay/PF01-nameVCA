@@ -79,8 +79,9 @@ header{
     letter-spacing: -0.03em;
 }
 
-/* sprite ! */
-
+.sprite{
+    background: url(../images/sprite_com.png) no-repeat;
+}
 /*main_banner2*/
 
 .main_banner .ballerina{
