@@ -411,6 +411,7 @@ header{
         transform: scale(1);
     }
 
+
 /*-------------------------- ABOUT BRAND --------------------------*/
 .about_Vca{
     padding: 254px 0 0;
@@ -487,13 +488,10 @@ header{
 .about_story_wrap .about_story .view_more{
     text-transform: uppercase;
 }
-
-
 .about_story_wrap .about_story .view_arrow{
     background: url(../images/sprite_com.png) no-repeat;
     background-position: 0 -37px;
     width: 95px;height: 25px;
-    /* text-indent: -9999em; */
     position: relative;
 }
 
@@ -512,6 +510,11 @@ header{
 
 .about_story_wrap .about_story .view_arrow:hover:after{
     opacity: 1;
+}
+@keyframes rotate_alhamf{
+	100% {
+    	transform: rotate(180deg);
+    }
 }
 
 .about_products{
@@ -584,8 +587,9 @@ header{
     opacity: 0;
     z-index: -1;
 }
-
-
+.about_products .vca_article.article1 .article_left .btn_bg:hover:after{
+    opacity: 1;
+}
 .vca_article.article1 .article_right{
     float: right;
     position: relative;
@@ -670,7 +674,9 @@ header{
      opacity: 0;
      z-index: -1;
  }
-
+ .about_products .vca_article.article2 .article_right .btn_bg:hover:after{
+    opacity: 1;
+}
  .vca_article.article2 .article_left{
     float: left;
 }
