@@ -250,3 +250,41 @@ footer .ft{
     font-size: 24px;
     color: #DDDECC;
 }
+
+
+footer .ft_bottom{
+    text-align: center;
+}
+footer .ft_bottom ul{
+    display: inline-block;
+}
+footer .ft_bottom ul li{
+    float: left;
+}
+
+footer .ft_bottom ul li+li{
+    float: left;
+    margin-left: 50px;
+}
+
+footer .ft_bottom ul li a{
+    color: #F3F4E6;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+footer .ft_bottom p{
+    font-family: 'Noto Serif KR', serif;
+    font-size: 16px;
+    color: #F3F4E6;
+}
+
+.ft_bottom .ft_logo{
+    width: 97px;
+    height: 53px;
+    background: url(../images/footer_logo.png) no-repeat;
+    text-indent: -9999em;
+    display: inline-block;
+    margin: 36px 0 36px;
+}
