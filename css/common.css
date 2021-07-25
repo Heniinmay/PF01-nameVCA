@@ -288,3 +288,17 @@ footer .ft_bottom p{
     display: inline-block;
     margin: 36px 0 36px;
 }
+
+
+#btt{
+    font-weight: 800;
+    position: fixed;
+    bottom: 4em;
+    right: 4em;
+    width: 74px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    background-position: -160px 0px;
+    transition: opacity 0.5s ease-in;
+}
