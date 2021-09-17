@@ -85,3 +85,25 @@ mainSlideWrapper.addEventListener('mouseover', function () {
 mainSlideWrapper.addEventListener('mouseout', function () {
     autoSlide();
 });
+
+// HeaderScroll
+
+var body = document.body, //body선택
+    lastScroll = 0;
+
+    window.addEventListener('scroll',()=>{
+        var scrollAmt = window.pageYOffset;
+        
+        if(scrollAmt == 0){
+            body.classList.remove('scroll-up');
+        }
+                
+        if(scrollAmt>lastScroll){
+            body.classList.add('scroll-down');
+            body.classList.remove('scroll-up');
+        }else if(scrollAmt<lastScroll){
+            body.classList.remove('scroll-down');
+            body.classList.add('scroll-up');
+        }
+        lastScroll = scrollAmt; // 같다가 아니다
+    });
