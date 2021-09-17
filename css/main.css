@@ -219,6 +219,52 @@ header{
     }
 }
 
+.main_banner .frivole{
+    position: relative;
+}
+.main_banner .page.frivole{
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 239, 195, 0.2);
+}
+
+.main_banner .page.frivole > a{
+    background: url(../images/banner_img3.png) no-repeat;
+    width: 421px;
+    height: 654px;
+    margin: 0px auto;
+    display: block;
+    transform: translate(45%,15%);
+}
+.main_banner_slides .page.frivole .main_b_left{
+    position: absolute;
+    top: 23%;
+    left: 15%;
+    transform: translate(10%,10%);
+}
+.main_banner .page.frivole .main_b_left h2{
+    color: #060606;
+    font-size: 72px;
+    line-height: 81px;
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 600;
+    width: 350px;
+    padding-left: 150px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+
+.main_banner .page.frivole .main_b_left p{
+    font-family: 'Noto Serif KR', serif;
+    font-size: 24px;
+    font-weight: 300;
+    width: 350px;
+    text-align: right;
+    padding:27px 0;
+    transform: translateX(150px);
+
+}
 .main_banner .main_fixed{
     width: 611px;
     height: 266px;
