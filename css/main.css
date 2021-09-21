@@ -457,6 +457,46 @@ header{
         transform: scale(1);
     }
 
+/*-------------------------- .new_arrivals --------------------------*/
+/*     ----------------------- .new_clips ----------------------     */
+
+.new_clips .stillvideo{
+    position: relative;
+}
+.stillvideo .vca-video-player{
+    width: 1440px;
+    min-height: 510px;
+    
+}
+.new_clips .stillvideo .hover_link{
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+    background: rgba(0,0,0,.5);
+    opacity: 0;
+}
+.new_clips .stillvideo .hover_link .play_btn{
+    width: 87px;
+    height: 87px;
+    background: url(../images/sprite_com.png) no-repeat;
+    background-position: 0 -85px;
+
+    position: absolute;
+    left: 50%;top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.new_clips .stillvideo:hover .hover_link{
+    opacity: 1;
+}
+.new_clips .stillvideo:hover .hover_link .play_btn{
+    opacity: 1;
+}
+.new_clips .stillvideo:hover .hover_link .play_btn:hover{
+    background-position: -117px -85px;
+}
+.new_clips .stillvideo:hover .hover_link .play_btn:active{
+    background-position: -234px -85px;
+}
 
 /*-------------------------- ABOUT BRAND --------------------------*/
 .about_Vca{
