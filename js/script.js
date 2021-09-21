@@ -107,3 +107,14 @@ var body = document.body, //body선택
         }
         lastScroll = scrollAmt; // 같다가 아니다
     });
+
+var videoBtn = document.querySelector('.play_btn'),
+    controlVideo = document.querySelector('#vid');
+
+videoBtn.addEventListener('click',function(){
+    controlVideo.play();
+    videoBtn.style.display = 'none';
+});
+controlVideo.onended = function(){
+    videoBtn.style.display = 'block';
+}
