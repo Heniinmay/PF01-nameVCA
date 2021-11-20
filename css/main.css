@@ -4,6 +4,87 @@ header{
     transition: transform 0.4s;
 }
 
+.popup{
+    width: 500px;
+    padding:20px;
+    position: fixed;
+    left:10%;
+    top:13%;
+    z-index: 999;
+}
+.popup_contents{
+    padding: 30px;
+    background: rgba(255,255,255,1);
+    color: #353535;
+    border-radius: 10px;
+    box-shadow: 0 0 0 10px #99a04880;
+    position: relative;
+}
+.popup_contents .popup_logo{
+    background: url(../images/logo-text-dark.svg) no-repeat center center;
+    background-size: 200px;
+    width: 200px;
+    text-indent: -9999em;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.popup hr{
+    margin: 18px 0;
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.popup_contents h2{
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'Vollkorn', 'Noto Serif KR', serif;
+    color: #233B36;
+    text-shadow: none;
+    letter-spacing: -0.05em;
+    font-weight: 900;
+}
+.popup_contents > p{
+    line-height: 32px;
+    font-size: 14px;
+}
+
+.during p {
+    font-family:'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+    padding: 2px 0;
+}
+.during p:nth-child(3) {
+    letter-spacing: 0.03em;
+    padding: 10px 0;
+    line-height: 30px;
+}
+.during em{
+    font-family:'Roboto', sans-serif;
+    color: #1e6330;
+    font-weight: 800;
+}
+.during a{
+    border-bottom: 2px solid #C4C684;
+}
+.popup_contents .sevenday{
+    text-align: right;
+}
+.popup_contents button{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #233B36;    
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    cursor: pointer;
+}
+.popup_contents button i{
+    font-size: 18px;  
+    color: #DDDECC;  
+}
+
+
 .main_banner{
     width: 100%;
     height: 100vh;
