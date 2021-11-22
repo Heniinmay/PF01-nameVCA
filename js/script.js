@@ -88,7 +88,7 @@ mainSlideWrapper.addEventListener('mouseout', function () {
 
 // HeaderScroll
 
-var body = document.body, //body선택
+var body = document.body,
     lastScroll = 0;
 
     window.addEventListener('scroll',()=>{
@@ -105,7 +105,7 @@ var body = document.body, //body선택
             body.classList.remove('scroll-down');
             body.classList.add('scroll-up');
         }
-        lastScroll = scrollAmt; // 같다가 아니다
+        lastScroll = scrollAmt;
     });
 
 var videoBtn = document.querySelector('.play_btn'),
@@ -118,3 +118,57 @@ videoBtn.addEventListener('click',function(){
 controlVideo.onended = function(){
     videoBtn.style.display = 'block';
 }
+
+//popup
+
+let myPopup = document.querySelector('.popup');
+let sevenDayCC = document.querySelector('#nomore');
+let popupC = myPopup.querySelector('.popup_contents');
+let closeBtn = popupC.querySelector('button');
+
+
+function checkcookie(name) {
+    var cookies = document.cookie.split(';');
+    var visited = false;
+
+    for (ck of cookies) {
+        if (ck.indexOf(name) > -1) {
+            visited = true;
+        }
+    }
+    if (visited) {
+        myPopup.style.display = 'none';
+    } else {
+        myPopup.style.display = 'block';
+    }
+}
+
+checkcookie('vca1');
+
+function setcookie(name, value, day) {
+    var date = new Date();
+    date.setDate(date.getDate()+day);
+
+    var myCookie = '';
+    myCookie = `${name}=${value};Expires=${date.toUTCString()}`;
+
+    document.cookie = myCookie;
+    
+}//setcookie
+function deleteCookie(name, value) {
+    var date = new Date();
+    date.setDate(date.getDate()-1);
+
+    var myCookie = '';
+    myCookie = `${name}=${value};Expires=${date.toUTCString()}`;
+
+    document.cookie = myCookie;
+}
+closeBtn.addEventListener('click', () => {
+    if (!sevenDayCC.checked) {
+        deleteCookie('vca1', 'home');
+    } else {
+        setcookie('vca1', 'home', 7);
+    }
+    myPopup.style.display = 'none';
+});
