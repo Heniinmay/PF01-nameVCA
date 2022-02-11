@@ -66,6 +66,20 @@ header{
 .during a{
     border-bottom: 2px solid #C4C684;
 }
+a.gitlink{
+    font-size: 28px;
+    line-height: 1.5em;
+    border-bottom: none;
+    color: #a7a87c;
+}
+a.react .fab{
+    color: #61dafb;
+    background: #282c34;
+    padding: 1.5px;
+}
+.during a span{
+    font-size: .7em;
+}
 .popup_contents .sevenday{
     text-align: right;
 }
