@@ -154,7 +154,7 @@
             <h2>Collection</h2>
             <img src="images/title_line.png" alt="">
         </div>
-        <div class="collection_slides_wrapper swiper-container container">
+        <div class="collection_slides_wrapper container">
             <ul class="collection_slides container swiper-wrapper">
                 <li class="vca_coll swiper-slide">
                     <img src="images/coll_main.png" alt="vca_coll_1">
@@ -162,6 +162,7 @@
                 </li>
                 <li class="vca_coll swiper-slide">
                     <img src="images/coll_2nd_l.png" alt="vca_coll_2">
+                    <!-- <p>Alhambra Ring</p> -->
                 </li>
                 <li class="vca_coll swiper-slide">
                     <img src="images/coll_3rd_l.png" alt="vca_coll_3">
@@ -371,14 +372,13 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script>
-        const swiper = new Swiper('.swiper-container', {
+        const swiper = new Swiper('.collection_slides_wrapper', {
             speed: 500,
             loop: true,
             grabCursor: true,
-            // slidesPerView: 5,
             slidesPerView: "auto",
+            spaceBetween: 0, //gap
             centeredSlides: true,
-
             pagination: {
                 el: '.swiper-pagination',
                 clickable: true,
@@ -387,9 +387,6 @@
                 prevEl: '.button-prev',
                 nextEl: '.button-next',
             },
-            // mouseWheel : {
-            //     releaseOnEdges:true
-            // },
             effect: 'coverflow',
             coverflowEffect: {
                 rotate: 1,
@@ -399,10 +396,6 @@
                 slideShadows: false,
                 scale: 0.7
             },
-            scrollbar:{
-                snapOnRelease:true,
-            }
-
 
         });
     </script>

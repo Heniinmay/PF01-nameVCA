@@ -1,0 +1,304 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400&family=Vollkorn:wght@400;500;600&display=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+/* font-family: 'Noto Serif KR', serif;
+font-family: 'Vollkorn', serif; 
+font-family: 'Roboto', sans-serif;*/
+
+/*------------------------- RESET -------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.cf:after{
+    content:'';
+    clear: both;
+    display: block;
+    margin: 0;
+}
+a, input, button{
+    outline: none;
+}
+/*------------------------- LAYOUT -------------------------*/
+
+body{
+    font:16px/27px 'Noto Serif KR', serif;
+    color: #2c2c2c;
+    background-color: #F3F4E6;
+}
+.hidden{
+    display: none;
+}
+
+/*----------------------- TYPOGRAPHY -----------------------*/
+.material-icons-outlined {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+.main_bold{
+    font-weight: 700;
+}
+/*---------------------- HEADER & NAV ----------------------*/
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+header{ 
+    width: 100%;
+    margin: 0 auto;
+    background-color: #DDDECC ;
+    border-bottom: 2px solid #233B36;
+    position: fixed;
+    z-index: 999;
+}
+header h2{
+    padding: 5px 0 5px;                         /*9px*/
+    border-right: 2px solid #233B36 ;
+    float: left;
+}
+header nav .logo{
+    width: 100px;
+    height: 56px;
+    background: url(../images/logo.png) no-repeat;
+    display: block;
+    padding-right: 24px;
+    text-indent: -9999em;
+}
+.nav_menu{
+    float: right;
+}
+.nav_menu li{
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    text-transform: uppercase;
+}
+.nav_menu li a{
+    color: #233B36;
+    padding: 0 25px;
+    line-height: 66px;                          /*72px*/
+    font-size: 14px;
+    display: block;
+}
+.nav_menu li a:hover{
+    background: #F3F4E6;
+    opacity: .8;
+    transition: 0.8s;
+}
+.nav_menu li:last-child{
+    padding: 0 0;
+}
+.nav_menu .nav_icon{
+    line-height: 66px;
+    float: left;
+}
+
+
+.nav_menu li:first-child{
+    font-weight: 700;
+}
+/*---------------------- LINK & BUTTON ---------------------*/
+
+/*-------------------------- FOOTER --------------------------*/
+
+footer{
+    background-color: #233b36;
+    padding-top: 36px;
+}
+
+footer .ft{
+    border-top: 2px solid #DDDECC;
+    border-bottom: 2px solid #DDDECC;
+}
+
+.ft .ft_logo{
+    border-right: 2px solid #DDDECC;
+    padding:36px;
+    float: left;
+}
+
+.ft .ft_logo .logo_text{
+    width: 248px;
+    height: 30px;
+    background: url(../images/logo-text.svg) center center;
+    text-indent: -9999em;
+}
+
+.ft .ft_logo .ft_vca{
+    float: right;
+    text-align: right;
+    line-height: 200%;
+    text-transform: uppercase;
+    margin: 36px 0;
+}
+
+.ft .ft_logo .ft_vca li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 36px;
+}
+
+.ft .ft_logo .ft_vca li a{
+    color: #DDDECC;
+    
+}
+.ft .ft_menu_all{
+    float: left;
+    padding-left:88px;
+}
+.ft .ft_menu_all .ft_menus{
+    margin-top: 103px;
+    display: inline-block;
+}
+.ft .ft_menu_all .ft_menus li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+.ft .ft_menu_all .ft_menus li a{
+    color: #DDDECC;
+}
+.ft .ft_menu_all .ft_menus ul{
+    float: left;
+    padding-right:24px;
+    font-family: 'Roboto', sans-serif;
+    color: #DDDECC;
+    font-size: 14px;
+}
+.ft .ft_menu_all .ft_right{
+    margin-left: 122px;
+    margin-top: 36px;
+    float: right;
+}
+.ft .ft_menu_all .ft_right .sns_icon li{
+    float: left;
+}
+
+.ft_right .sns_icon .sprite{
+    width: 36px;
+    height: 36px;
+    background: url(../images/sprite_sns.png) no-repeat;
+    text-indent: -9999em;
+    display: inline-block;
+    margin: 0 36px 33px 0;
+}
+
+.ft_right .sns_icon .sprite.fb{
+    background-position: -68px 0px;
+    width: 37px;
+}
+.ft_right .sns_icon .sprite.twitter{
+    background-position: -138px 0px;
+}
+.ft_right .sns_icon .sprite.pint{
+    background-position: -206px 0px;
+    width: 37px;
+}
+.ft_right form{
+    margin-top: 108px;
+    position: relative;
+    width: 244px;
+    
+}
+.ft_right form h3{
+    font-family: 'Noto Serif KR', serif;
+    font-size: 18px;
+    color: #F3F4E6;
+    text-align: center;
+    text-transform: uppercase;
+}
+.ft_right form input[type="email"]{
+    background: rgba(255,255, 255, .3);
+    width: 100%;
+    line-height: 36px;
+    padding: 0 5px;
+    border-bottom: 2px solid #DDDECC;
+    color: #DDDECC;
+}
+.ft_right form input[type="email"]::placeholder{
+    color: #DDDECC;
+    font-size: 16px;
+    line-height: 36px;
+    padding: 5px;
+}
+.ft_right form button{
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    /* transform: translateY(-50%); */
+}
+.ft_right form button i{
+    font-size: 24px;
+    color: #DDDECC;
+}
+
+
+footer .ft_bottom{
+    text-align: center;
+}
+footer .ft_bottom ul{
+    display: inline-block;
+}
+footer .ft_bottom ul li{
+    float: left;
+}
+
+footer .ft_bottom ul li+li{
+    float: left;
+    margin-left: 50px;
+}
+
+footer .ft_bottom ul li a{
+    color: #F3F4E6;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+footer .ft_bottom p{
+    font-family: 'Noto Serif KR', serif;
+    font-size: 16px;
+    color: #F3F4E6;
+}
+
+.ft_bottom .ft_logo{
+    width: 97px;
+    height: 53px;
+    background: url(../images/footer_logo.png) no-repeat;
+    text-indent: -9999em;
+    display: inline-block;
+    margin: 36px 0 36px;
+}
+
+
+#btt{
+    font-weight: 800;
+    position: fixed;
+    bottom: 4em;
+    right: 4em;
+    width: 74px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    background-position: -160px 0px;
+    transition: opacity 0.5s ease-in;
+}

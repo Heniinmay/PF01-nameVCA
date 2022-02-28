@@ -3,9 +3,7 @@
 header {
   transition: transform 0.4s;
 }
-html, body{
-  overflow-x: hidden;
-}
+
 .popup {
   width: 500px;
   padding: 20px;
@@ -205,19 +203,15 @@ a.react .fab {
 .main_banner .page.perlee_1 .main_b_right a:hover:after {
   opacity: 1;
 }
-.main_banner .controls {
+.main_banner .controls .next {
   position: absolute;
-  bottom: 5%;
+  bottom: 0;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 1;
-}
-.main_banner .controls a.next i {
+  color: black;
   font-size: 50px;
   z-index: 1;
-  color: #282c34;
 }
-
 .scroll-down header {
   transform: translateY(-100%);
 }
@@ -403,9 +397,6 @@ a.react .fab {
   margin: 180px auto;
   text-align: center;
 }
-.collection::-webkit-scrollbar {
-	display:none !important;
-}
 .collection .small_logo {
   margin: 0 auto 144px;
   background: url(../images/logo.svg) no-repeat;
@@ -422,18 +413,6 @@ a.react .fab {
 .collection .sub_title {
   line-height: 72px;
 }
-/* .swiper-container {
-  overflow: visible; 
-}
-.swiper-slide{
-  opacity: 0;
-  visibility: hidden;
-}
-.swiper-slide.swiper-slide-active,.swiper-slide.swiper-slide-next,.swiper-slide.swiper-slide-prev{
-  opacity: 1;
-      visibility: visible;
-  } */
-
 
 /*-------------------------- COLLECTION --------------------------*/
 /*                              Slide                              */
@@ -445,22 +424,22 @@ a.react .fab {
 
 .collection_slides_wrapper ul {
   height: 404px;
-  overflow: visible;
+  overflow:visible;
 }
 
-.vca_coll {
-  width: 400px;
+.vca_coll{
+    width: 400px;
 }
 
-.swiper-slide {
-  opacity: 0.3;
-  transition: opacity 0.4s;
+.swiper-slide{
+    opacity: 0.3;
+    transition: opacity 0.4s;
 }
-.swiper-slide + .swiper-slide-visible.swiper-slide-active {
-  opacity: 1;
+.swiper-slide + .swiper-slide-visible.swiper-slide-active{
+    opacity: 1;
 }
 
-.controls a {
+.controls a{
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
