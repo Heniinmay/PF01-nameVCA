@@ -5,7 +5,7 @@ var btt =document.querySelector('#btt'),
 
     window.addEventListener('scroll',()=>{
         scrollAmt = window.pageYOffset;
-       //console.log(scrollAmt);
+       console.log(scrollAmt);
        if(scrollAmt > 600){
            btt.style.opacity = '1';
        }else{
